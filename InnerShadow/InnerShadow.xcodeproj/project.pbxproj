@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054BF453159639C100D88394 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054BF452159639C100D88394 /* UIKit.framework */; };
+		054BF455159639C100D88394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054BF454159639C100D88394 /* Foundation.framework */; };
+		054BF457159639C100D88394 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054BF456159639C100D88394 /* CoreGraphics.framework */; };
+		054BF45D159639C100D88394 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 054BF45B159639C100D88394 /* InfoPlist.strings */; };
+		054BF45F159639C100D88394 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BF45E159639C100D88394 /* main.m */; };
+		054BF463159639C100D88394 /* InnerShadowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BF462159639C100D88394 /* InnerShadowAppDelegate.m */; };
+		054BF466159639C100D88394 /* InnerShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BF465159639C100D88394 /* InnerShadowViewController.m */; };
+		054BF469159639C100D88394 /* InnerShadowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054BF467159639C100D88394 /* InnerShadowViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		054BF44E159639C100D88394 /* InnerShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnerShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		054BF452159639C100D88394 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		054BF454159639C100D88394 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		054BF456159639C100D88394 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		054BF45A159639C100D88394 /* InnerShadow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InnerShadow-Info.plist"; sourceTree = "<group>"; };
+		054BF45C159639C100D88394 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		054BF45E159639C100D88394 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		054BF460159639C100D88394 /* InnerShadow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InnerShadow-Prefix.pch"; sourceTree = "<group>"; };
+		054BF461159639C100D88394 /* InnerShadowAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InnerShadowAppDelegate.h; sourceTree = "<group>"; };
+		054BF462159639C100D88394 /* InnerShadowAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InnerShadowAppDelegate.m; sourceTree = "<group>"; };
+		054BF464159639C100D88394 /* InnerShadowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InnerShadowViewController.h; sourceTree = "<group>"; };
+		054BF465159639C100D88394 /* InnerShadowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InnerShadowViewController.m; sourceTree = "<group>"; };
+		054BF468159639C100D88394 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/InnerShadowViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		054BF44B159639C100D88394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054BF453159639C100D88394 /* UIKit.framework in Frameworks */,
+				054BF455159639C100D88394 /* Foundation.framework in Frameworks */,
+				054BF457159639C100D88394 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054BF443159639C100D88394 = {
+			isa = PBXGroup;
+			children = (
+				054BF458159639C100D88394 /* InnerShadow */,
+				054BF451159639C100D88394 /* Frameworks */,
+				054BF44F159639C100D88394 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		054BF44F159639C100D88394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				054BF44E159639C100D88394 /* InnerShadow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		054BF451159639C100D88394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				054BF452159639C100D88394 /* UIKit.framework */,
+				054BF454159639C100D88394 /* Foundation.framework */,
+				054BF456159639C100D88394 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		054BF458159639C100D88394 /* InnerShadow */ = {
+			isa = PBXGroup;
+			children = (
+				054BF461159639C100D88394 /* InnerShadowAppDelegate.h */,
+				054BF462159639C100D88394 /* InnerShadowAppDelegate.m */,
+				054BF464159639C100D88394 /* InnerShadowViewController.h */,
+				054BF465159639C100D88394 /* InnerShadowViewController.m */,
+				054BF467159639C100D88394 /* InnerShadowViewController.xib */,
+				054BF459159639C100D88394 /* Supporting Files */,
+			);
+			path = InnerShadow;
+			sourceTree = "<group>";
+		};
+		054BF459159639C100D88394 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				054BF45A159639C100D88394 /* InnerShadow-Info.plist */,
+				054BF45B159639C100D88394 /* InfoPlist.strings */,
+				054BF45E159639C100D88394 /* main.m */,
+				054BF460159639C100D88394 /* InnerShadow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		054BF44D159639C100D88394 /* InnerShadow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054BF46C159639C100D88394 /* Build configuration list for PBXNativeTarget "InnerShadow" */;
+			buildPhases = (
+				054BF44A159639C100D88394 /* Sources */,
+				054BF44B159639C100D88394 /* Frameworks */,
+				054BF44C159639C100D88394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InnerShadow;
+			productName = InnerShadow;
+			productReference = 054BF44E159639C100D88394 /* InnerShadow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		054BF445159639C100D88394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = InnerShadow;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 054BF448159639C100D88394 /* Build configuration list for PBXProject "InnerShadow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 054BF443159639C100D88394;
+			productRefGroup = 054BF44F159639C100D88394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				054BF44D159639C100D88394 /* InnerShadow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		054BF44C159639C100D88394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054BF45D159639C100D88394 /* InfoPlist.strings in Resources */,
+				054BF469159639C100D88394 /* InnerShadowViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		054BF44A159639C100D88394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054BF45F159639C100D88394 /* main.m in Sources */,
+				054BF463159639C100D88394 /* InnerShadowAppDelegate.m in Sources */,
+				054BF466159639C100D88394 /* InnerShadowViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		054BF45B159639C100D88394 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				054BF45C159639C100D88394 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		054BF467159639C100D88394 /* InnerShadowViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				054BF468159639C100D88394 /* en */,
+			);
+			name = InnerShadowViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		054BF46A159639C100D88394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		054BF46B159639C100D88394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		054BF46D159639C100D88394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InnerShadow/InnerShadow-Prefix.pch";
+				INFOPLIST_FILE = "InnerShadow/InnerShadow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		054BF46E159639C100D88394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InnerShadow/InnerShadow-Prefix.pch";
+				INFOPLIST_FILE = "InnerShadow/InnerShadow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		054BF448159639C100D88394 /* Build configuration list for PBXProject "InnerShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054BF46A159639C100D88394 /* Debug */,
+				054BF46B159639C100D88394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		054BF46C159639C100D88394 /* Build configuration list for PBXNativeTarget "InnerShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054BF46D159639C100D88394 /* Debug */,
+				054BF46E159639C100D88394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 054BF445159639C100D88394 /* Project object */;
+}
