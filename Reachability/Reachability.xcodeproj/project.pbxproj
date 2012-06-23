@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054BF40D159552FA00D88394 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054BF40C159552FA00D88394 /* UIKit.framework */; };
+		054BF40F159552FA00D88394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054BF40E159552FA00D88394 /* Foundation.framework */; };
+		054BF411159552FA00D88394 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054BF410159552FA00D88394 /* CoreGraphics.framework */; };
+		054BF417159552FA00D88394 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 054BF415159552FA00D88394 /* InfoPlist.strings */; };
+		054BF419159552FA00D88394 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BF418159552FA00D88394 /* main.m */; };
+		054BF41D159552FA00D88394 /* ReachabilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BF41C159552FA00D88394 /* ReachabilityAppDelegate.m */; };
+		054BF420159552FA00D88394 /* ReachabilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BF41F159552FA00D88394 /* ReachabilityViewController.m */; };
+		054BF423159552FA00D88394 /* ReachabilityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054BF421159552FA00D88394 /* ReachabilityViewController.xib */; };
+		054BF43B15959F1A00D88394 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BF43A15959EF400D88394 /* Reachability.m */; };
+		054BF44215959FEB00D88394 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054BF44115959FEB00D88394 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		054BF408159552FA00D88394 /* Reachability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reachability.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		054BF40C159552FA00D88394 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		054BF40E159552FA00D88394 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		054BF410159552FA00D88394 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		054BF414159552FA00D88394 /* Reachability-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reachability-Info.plist"; sourceTree = "<group>"; };
+		054BF416159552FA00D88394 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		054BF418159552FA00D88394 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		054BF41A159552FA00D88394 /* Reachability-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reachability-Prefix.pch"; sourceTree = "<group>"; };
+		054BF41B159552FA00D88394 /* ReachabilityAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReachabilityAppDelegate.h; sourceTree = "<group>"; };
+		054BF41C159552FA00D88394 /* ReachabilityAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReachabilityAppDelegate.m; sourceTree = "<group>"; };
+		054BF41E159552FA00D88394 /* ReachabilityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReachabilityViewController.h; sourceTree = "<group>"; };
+		054BF41F159552FA00D88394 /* ReachabilityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReachabilityViewController.m; sourceTree = "<group>"; };
+		054BF422159552FA00D88394 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ReachabilityViewController.xib; sourceTree = "<group>"; };
+		054BF43915959EF400D88394 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		054BF43A15959EF400D88394 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		054BF44115959FEB00D88394 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		054BF405159552FA00D88394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054BF44215959FEB00D88394 /* SystemConfiguration.framework in Frameworks */,
+				054BF40D159552FA00D88394 /* UIKit.framework in Frameworks */,
+				054BF40F159552FA00D88394 /* Foundation.framework in Frameworks */,
+				054BF411159552FA00D88394 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054BF3FD159552FA00D88394 = {
+			isa = PBXGroup;
+			children = (
+				054BF412159552FA00D88394 /* Reachability */,
+				054BF40B159552FA00D88394 /* Frameworks */,
+				054BF409159552FA00D88394 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		054BF409159552FA00D88394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				054BF408159552FA00D88394 /* Reachability.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		054BF40B159552FA00D88394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				054BF44115959FEB00D88394 /* SystemConfiguration.framework */,
+				054BF40C159552FA00D88394 /* UIKit.framework */,
+				054BF40E159552FA00D88394 /* Foundation.framework */,
+				054BF410159552FA00D88394 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		054BF412159552FA00D88394 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				054BF43915959EF400D88394 /* Reachability.h */,
+				054BF43A15959EF400D88394 /* Reachability.m */,
+				054BF41B159552FA00D88394 /* ReachabilityAppDelegate.h */,
+				054BF41C159552FA00D88394 /* ReachabilityAppDelegate.m */,
+				054BF41E159552FA00D88394 /* ReachabilityViewController.h */,
+				054BF41F159552FA00D88394 /* ReachabilityViewController.m */,
+				054BF421159552FA00D88394 /* ReachabilityViewController.xib */,
+				054BF413159552FA00D88394 /* Supporting Files */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		054BF413159552FA00D88394 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				054BF414159552FA00D88394 /* Reachability-Info.plist */,
+				054BF415159552FA00D88394 /* InfoPlist.strings */,
+				054BF418159552FA00D88394 /* main.m */,
+				054BF41A159552FA00D88394 /* Reachability-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		054BF407159552FA00D88394 /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054BF426159552FA00D88394 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				054BF404159552FA00D88394 /* Sources */,
+				054BF405159552FA00D88394 /* Frameworks */,
+				054BF406159552FA00D88394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = 054BF408159552FA00D88394 /* Reachability.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		054BF3FF159552FA00D88394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Reachability;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 054BF402159552FA00D88394 /* Build configuration list for PBXProject "Reachability" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 054BF3FD159552FA00D88394;
+			productRefGroup = 054BF409159552FA00D88394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				054BF407159552FA00D88394 /* Reachability */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		054BF406159552FA00D88394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054BF417159552FA00D88394 /* InfoPlist.strings in Resources */,
+				054BF423159552FA00D88394 /* ReachabilityViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		054BF404159552FA00D88394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054BF419159552FA00D88394 /* main.m in Sources */,
+				054BF41D159552FA00D88394 /* ReachabilityAppDelegate.m in Sources */,
+				054BF420159552FA00D88394 /* ReachabilityViewController.m in Sources */,
+				054BF43B15959F1A00D88394 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		054BF415159552FA00D88394 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				054BF416159552FA00D88394 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		054BF421159552FA00D88394 /* ReachabilityViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				054BF422159552FA00D88394 /* en */,
+			);
+			name = ReachabilityViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		054BF424159552FA00D88394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		054BF425159552FA00D88394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		054BF427159552FA00D88394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reachability/Reachability-Prefix.pch";
+				INFOPLIST_FILE = "Reachability/Reachability-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		054BF428159552FA00D88394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reachability/Reachability-Prefix.pch";
+				INFOPLIST_FILE = "Reachability/Reachability-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		054BF402159552FA00D88394 /* Build configuration list for PBXProject "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054BF424159552FA00D88394 /* Debug */,
+				054BF425159552FA00D88394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		054BF426159552FA00D88394 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054BF427159552FA00D88394 /* Debug */,
+				054BF428159552FA00D88394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 054BF3FF159552FA00D88394 /* Project object */;
+}
