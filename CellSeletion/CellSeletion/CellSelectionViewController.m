@@ -24,7 +24,7 @@
     self.table.delegate = self;
     
     table.allowsSelection = NO;
-    table.userInteractionEnabled = NO;
+//    table.userInteractionEnabled = NO;
 }
 
 - (void)viewDidUnload
