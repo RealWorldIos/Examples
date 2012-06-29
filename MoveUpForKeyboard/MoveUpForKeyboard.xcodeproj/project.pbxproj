@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05836ABE159E3D4A0012BD09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05836ABD159E3D4A0012BD09 /* UIKit.framework */; };
+		05836AC0159E3D4A0012BD09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05836ABF159E3D4A0012BD09 /* Foundation.framework */; };
+		05836AC2159E3D4A0012BD09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05836AC1159E3D4A0012BD09 /* CoreGraphics.framework */; };
+		05836AC8159E3D4A0012BD09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05836AC6159E3D4A0012BD09 /* InfoPlist.strings */; };
+		05836ACA159E3D4A0012BD09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05836AC9159E3D4A0012BD09 /* main.m */; };
+		05836ACE159E3D4A0012BD09 /* MoveUpForKeyboardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05836ACD159E3D4A0012BD09 /* MoveUpForKeyboardAppDelegate.m */; };
+		05836AD1159E3D4A0012BD09 /* MoveUpForKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05836AD0159E3D4A0012BD09 /* MoveUpForKeyboardViewController.m */; };
+		05836AD4159E3D4A0012BD09 /* MoveUpForKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05836AD2159E3D4A0012BD09 /* MoveUpForKeyboardViewController.xib */; };
+		05836AE0159E5C870012BD09 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05836ADF159E5C870012BD09 /* TPKeyboardAvoidingScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05836AB9159E3D4A0012BD09 /* MoveUpForKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveUpForKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05836ABD159E3D4A0012BD09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05836ABF159E3D4A0012BD09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05836AC1159E3D4A0012BD09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05836AC5159E3D4A0012BD09 /* MoveUpForKeyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoveUpForKeyboard-Info.plist"; sourceTree = "<group>"; };
+		05836AC7159E3D4A0012BD09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05836AC9159E3D4A0012BD09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05836ACB159E3D4A0012BD09 /* MoveUpForKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoveUpForKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		05836ACC159E3D4A0012BD09 /* MoveUpForKeyboardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveUpForKeyboardAppDelegate.h; sourceTree = "<group>"; };
+		05836ACD159E3D4A0012BD09 /* MoveUpForKeyboardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveUpForKeyboardAppDelegate.m; sourceTree = "<group>"; };
+		05836ACF159E3D4A0012BD09 /* MoveUpForKeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveUpForKeyboardViewController.h; sourceTree = "<group>"; };
+		05836AD0159E3D4A0012BD09 /* MoveUpForKeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveUpForKeyboardViewController.m; sourceTree = "<group>"; };
+		05836AD3159E3D4A0012BD09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MoveUpForKeyboardViewController.xib; sourceTree = "<group>"; };
+		05836ADE159E5C870012BD09 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		05836ADF159E5C870012BD09 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05836AB6159E3D4A0012BD09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05836ABE159E3D4A0012BD09 /* UIKit.framework in Frameworks */,
+				05836AC0159E3D4A0012BD09 /* Foundation.framework in Frameworks */,
+				05836AC2159E3D4A0012BD09 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05836AAE159E3D4A0012BD09 = {
+			isa = PBXGroup;
+			children = (
+				05836AC3159E3D4A0012BD09 /* MoveUpForKeyboard */,
+				05836ABC159E3D4A0012BD09 /* Frameworks */,
+				05836ABA159E3D4A0012BD09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05836ABA159E3D4A0012BD09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05836AB9159E3D4A0012BD09 /* MoveUpForKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05836ABC159E3D4A0012BD09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05836ABD159E3D4A0012BD09 /* UIKit.framework */,
+				05836ABF159E3D4A0012BD09 /* Foundation.framework */,
+				05836AC1159E3D4A0012BD09 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05836AC3159E3D4A0012BD09 /* MoveUpForKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				05836ADE159E5C870012BD09 /* TPKeyboardAvoidingScrollView.h */,
+				05836ADF159E5C870012BD09 /* TPKeyboardAvoidingScrollView.m */,
+				05836ACC159E3D4A0012BD09 /* MoveUpForKeyboardAppDelegate.h */,
+				05836ACD159E3D4A0012BD09 /* MoveUpForKeyboardAppDelegate.m */,
+				05836ACF159E3D4A0012BD09 /* MoveUpForKeyboardViewController.h */,
+				05836AD0159E3D4A0012BD09 /* MoveUpForKeyboardViewController.m */,
+				05836AD2159E3D4A0012BD09 /* MoveUpForKeyboardViewController.xib */,
+				05836AC4159E3D4A0012BD09 /* Supporting Files */,
+			);
+			path = MoveUpForKeyboard;
+			sourceTree = "<group>";
+		};
+		05836AC4159E3D4A0012BD09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05836AC5159E3D4A0012BD09 /* MoveUpForKeyboard-Info.plist */,
+				05836AC6159E3D4A0012BD09 /* InfoPlist.strings */,
+				05836AC9159E3D4A0012BD09 /* main.m */,
+				05836ACB159E3D4A0012BD09 /* MoveUpForKeyboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05836AB8159E3D4A0012BD09 /* MoveUpForKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05836AD7159E3D4A0012BD09 /* Build configuration list for PBXNativeTarget "MoveUpForKeyboard" */;
+			buildPhases = (
+				05836AB5159E3D4A0012BD09 /* Sources */,
+				05836AB6159E3D4A0012BD09 /* Frameworks */,
+				05836AB7159E3D4A0012BD09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoveUpForKeyboard;
+			productName = MoveUpForKeyboard;
+			productReference = 05836AB9159E3D4A0012BD09 /* MoveUpForKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05836AB0159E3D4A0012BD09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MoveUpForKeyboard;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 05836AB3159E3D4A0012BD09 /* Build configuration list for PBXProject "MoveUpForKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05836AAE159E3D4A0012BD09;
+			productRefGroup = 05836ABA159E3D4A0012BD09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05836AB8159E3D4A0012BD09 /* MoveUpForKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05836AB7159E3D4A0012BD09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05836AC8159E3D4A0012BD09 /* InfoPlist.strings in Resources */,
+				05836AD4159E3D4A0012BD09 /* MoveUpForKeyboardViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05836AB5159E3D4A0012BD09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05836ACA159E3D4A0012BD09 /* main.m in Sources */,
+				05836ACE159E3D4A0012BD09 /* MoveUpForKeyboardAppDelegate.m in Sources */,
+				05836AD1159E3D4A0012BD09 /* MoveUpForKeyboardViewController.m in Sources */,
+				05836AE0159E5C870012BD09 /* TPKeyboardAvoidingScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05836AC6159E3D4A0012BD09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05836AC7159E3D4A0012BD09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05836AD2159E3D4A0012BD09 /* MoveUpForKeyboardViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05836AD3159E3D4A0012BD09 /* en */,
+			);
+			name = MoveUpForKeyboardViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05836AD5159E3D4A0012BD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05836AD6159E3D4A0012BD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05836AD8159E3D4A0012BD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoveUpForKeyboard/MoveUpForKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "MoveUpForKeyboard/MoveUpForKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05836AD9159E3D4A0012BD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoveUpForKeyboard/MoveUpForKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "MoveUpForKeyboard/MoveUpForKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05836AB3159E3D4A0012BD09 /* Build configuration list for PBXProject "MoveUpForKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05836AD5159E3D4A0012BD09 /* Debug */,
+				05836AD6159E3D4A0012BD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05836AD7159E3D4A0012BD09 /* Build configuration list for PBXNativeTarget "MoveUpForKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05836AD8159E3D4A0012BD09 /* Debug */,
+				05836AD9159E3D4A0012BD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05836AB0159E3D4A0012BD09 /* Project object */;
+}
