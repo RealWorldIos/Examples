@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05836AF1159E70E00012BD09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05836AF0159E70E00012BD09 /* UIKit.framework */; };
+		05836AF3159E70E00012BD09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05836AF2159E70E00012BD09 /* Foundation.framework */; };
+		05836AF5159E70E00012BD09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05836AF4159E70E00012BD09 /* CoreGraphics.framework */; };
+		05836AFB159E70E00012BD09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05836AF9159E70E00012BD09 /* InfoPlist.strings */; };
+		05836AFD159E70E00012BD09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05836AFC159E70E00012BD09 /* main.m */; };
+		05836B01159E70E00012BD09 /* ShakeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05836B00159E70E00012BD09 /* ShakeAppDelegate.m */; };
+		05836B04159E70E00012BD09 /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05836B03159E70E00012BD09 /* ShakeViewController.m */; };
+		05836B07159E70E00012BD09 /* ShakeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05836B05159E70E00012BD09 /* ShakeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05836AEC159E70E00012BD09 /* Shake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05836AF0159E70E00012BD09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05836AF2159E70E00012BD09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05836AF4159E70E00012BD09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05836AF8159E70E00012BD09 /* Shake-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shake-Info.plist"; sourceTree = "<group>"; };
+		05836AFA159E70E00012BD09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05836AFC159E70E00012BD09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05836AFE159E70E00012BD09 /* Shake-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shake-Prefix.pch"; sourceTree = "<group>"; };
+		05836AFF159E70E00012BD09 /* ShakeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeAppDelegate.h; sourceTree = "<group>"; };
+		05836B00159E70E00012BD09 /* ShakeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeAppDelegate.m; sourceTree = "<group>"; };
+		05836B02159E70E00012BD09 /* ShakeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeViewController.h; sourceTree = "<group>"; };
+		05836B03159E70E00012BD09 /* ShakeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeViewController.m; sourceTree = "<group>"; };
+		05836B06159E70E00012BD09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShakeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05836AE9159E70E00012BD09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05836AF1159E70E00012BD09 /* UIKit.framework in Frameworks */,
+				05836AF3159E70E00012BD09 /* Foundation.framework in Frameworks */,
+				05836AF5159E70E00012BD09 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05836AE1159E70E00012BD09 = {
+			isa = PBXGroup;
+			children = (
+				05836AF6159E70E00012BD09 /* Shake */,
+				05836AEF159E70E00012BD09 /* Frameworks */,
+				05836AED159E70E00012BD09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05836AED159E70E00012BD09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05836AEC159E70E00012BD09 /* Shake.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05836AEF159E70E00012BD09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05836AF0159E70E00012BD09 /* UIKit.framework */,
+				05836AF2159E70E00012BD09 /* Foundation.framework */,
+				05836AF4159E70E00012BD09 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05836AF6159E70E00012BD09 /* Shake */ = {
+			isa = PBXGroup;
+			children = (
+				05836AFF159E70E00012BD09 /* ShakeAppDelegate.h */,
+				05836B00159E70E00012BD09 /* ShakeAppDelegate.m */,
+				05836B02159E70E00012BD09 /* ShakeViewController.h */,
+				05836B03159E70E00012BD09 /* ShakeViewController.m */,
+				05836B05159E70E00012BD09 /* ShakeViewController.xib */,
+				05836AF7159E70E00012BD09 /* Supporting Files */,
+			);
+			path = Shake;
+			sourceTree = "<group>";
+		};
+		05836AF7159E70E00012BD09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05836AF8159E70E00012BD09 /* Shake-Info.plist */,
+				05836AF9159E70E00012BD09 /* InfoPlist.strings */,
+				05836AFC159E70E00012BD09 /* main.m */,
+				05836AFE159E70E00012BD09 /* Shake-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05836AEB159E70E00012BD09 /* Shake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05836B0A159E70E00012BD09 /* Build configuration list for PBXNativeTarget "Shake" */;
+			buildPhases = (
+				05836AE8159E70E00012BD09 /* Sources */,
+				05836AE9159E70E00012BD09 /* Frameworks */,
+				05836AEA159E70E00012BD09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shake;
+			productName = Shake;
+			productReference = 05836AEC159E70E00012BD09 /* Shake.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05836AE3159E70E00012BD09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Shake;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 05836AE6159E70E00012BD09 /* Build configuration list for PBXProject "Shake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05836AE1159E70E00012BD09;
+			productRefGroup = 05836AED159E70E00012BD09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05836AEB159E70E00012BD09 /* Shake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05836AEA159E70E00012BD09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05836AFB159E70E00012BD09 /* InfoPlist.strings in Resources */,
+				05836B07159E70E00012BD09 /* ShakeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05836AE8159E70E00012BD09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05836AFD159E70E00012BD09 /* main.m in Sources */,
+				05836B01159E70E00012BD09 /* ShakeAppDelegate.m in Sources */,
+				05836B04159E70E00012BD09 /* ShakeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05836AF9159E70E00012BD09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05836AFA159E70E00012BD09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05836B05159E70E00012BD09 /* ShakeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05836B06159E70E00012BD09 /* en */,
+			);
+			name = ShakeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05836B08159E70E00012BD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05836B09159E70E00012BD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05836B0B159E70E00012BD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shake/Shake-Prefix.pch";
+				INFOPLIST_FILE = "Shake/Shake-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05836B0C159E70E00012BD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shake/Shake-Prefix.pch";
+				INFOPLIST_FILE = "Shake/Shake-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05836AE6159E70E00012BD09 /* Build configuration list for PBXProject "Shake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05836B08159E70E00012BD09 /* Debug */,
+				05836B09159E70E00012BD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05836B0A159E70E00012BD09 /* Build configuration list for PBXNativeTarget "Shake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05836B0B159E70E00012BD09 /* Debug */,
+				05836B0C159E70E00012BD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05836AE3159E70E00012BD09 /* Project object */;
+}
