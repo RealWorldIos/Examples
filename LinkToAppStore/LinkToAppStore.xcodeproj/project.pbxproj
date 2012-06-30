@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D90378159F9EB8003A2CB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D90377159F9EB8003A2CB4 /* UIKit.framework */; };
+		05D9037A159F9EB8003A2CB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D90379159F9EB8003A2CB4 /* Foundation.framework */; };
+		05D9037C159F9EB8003A2CB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D9037B159F9EB8003A2CB4 /* CoreGraphics.framework */; };
+		05D90382159F9EB8003A2CB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05D90380159F9EB8003A2CB4 /* InfoPlist.strings */; };
+		05D90384159F9EB8003A2CB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D90383159F9EB8003A2CB4 /* main.m */; };
+		05D90388159F9EB8003A2CB4 /* LinkToAppStoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D90387159F9EB8003A2CB4 /* LinkToAppStoreAppDelegate.m */; };
+		05D9038B159F9EB8003A2CB4 /* LinkToAppStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9038A159F9EB8003A2CB4 /* LinkToAppStoreViewController.m */; };
+		05D9038E159F9EB8003A2CB4 /* LinkToAppStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D9038C159F9EB8003A2CB4 /* LinkToAppStoreViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05D90373159F9EB8003A2CB4 /* LinkToAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkToAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D90377159F9EB8003A2CB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05D90379159F9EB8003A2CB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05D9037B159F9EB8003A2CB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05D9037F159F9EB8003A2CB4 /* LinkToAppStore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinkToAppStore-Info.plist"; sourceTree = "<group>"; };
+		05D90381159F9EB8003A2CB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05D90383159F9EB8003A2CB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05D90385159F9EB8003A2CB4 /* LinkToAppStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinkToAppStore-Prefix.pch"; sourceTree = "<group>"; };
+		05D90386159F9EB8003A2CB4 /* LinkToAppStoreAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkToAppStoreAppDelegate.h; sourceTree = "<group>"; };
+		05D90387159F9EB8003A2CB4 /* LinkToAppStoreAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkToAppStoreAppDelegate.m; sourceTree = "<group>"; };
+		05D90389159F9EB8003A2CB4 /* LinkToAppStoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkToAppStoreViewController.h; sourceTree = "<group>"; };
+		05D9038A159F9EB8003A2CB4 /* LinkToAppStoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkToAppStoreViewController.m; sourceTree = "<group>"; };
+		05D9038D159F9EB8003A2CB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LinkToAppStoreViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05D90370159F9EB8003A2CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D90378159F9EB8003A2CB4 /* UIKit.framework in Frameworks */,
+				05D9037A159F9EB8003A2CB4 /* Foundation.framework in Frameworks */,
+				05D9037C159F9EB8003A2CB4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D90368159F9EB8003A2CB4 = {
+			isa = PBXGroup;
+			children = (
+				05D9037D159F9EB8003A2CB4 /* LinkToAppStore */,
+				05D90376159F9EB8003A2CB4 /* Frameworks */,
+				05D90374159F9EB8003A2CB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05D90374159F9EB8003A2CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05D90373159F9EB8003A2CB4 /* LinkToAppStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05D90376159F9EB8003A2CB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05D90377159F9EB8003A2CB4 /* UIKit.framework */,
+				05D90379159F9EB8003A2CB4 /* Foundation.framework */,
+				05D9037B159F9EB8003A2CB4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05D9037D159F9EB8003A2CB4 /* LinkToAppStore */ = {
+			isa = PBXGroup;
+			children = (
+				05D90386159F9EB8003A2CB4 /* LinkToAppStoreAppDelegate.h */,
+				05D90387159F9EB8003A2CB4 /* LinkToAppStoreAppDelegate.m */,
+				05D90389159F9EB8003A2CB4 /* LinkToAppStoreViewController.h */,
+				05D9038A159F9EB8003A2CB4 /* LinkToAppStoreViewController.m */,
+				05D9038C159F9EB8003A2CB4 /* LinkToAppStoreViewController.xib */,
+				05D9037E159F9EB8003A2CB4 /* Supporting Files */,
+			);
+			path = LinkToAppStore;
+			sourceTree = "<group>";
+		};
+		05D9037E159F9EB8003A2CB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05D9037F159F9EB8003A2CB4 /* LinkToAppStore-Info.plist */,
+				05D90380159F9EB8003A2CB4 /* InfoPlist.strings */,
+				05D90383159F9EB8003A2CB4 /* main.m */,
+				05D90385159F9EB8003A2CB4 /* LinkToAppStore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05D90372159F9EB8003A2CB4 /* LinkToAppStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D90391159F9EB8003A2CB4 /* Build configuration list for PBXNativeTarget "LinkToAppStore" */;
+			buildPhases = (
+				05D9036F159F9EB8003A2CB4 /* Sources */,
+				05D90370159F9EB8003A2CB4 /* Frameworks */,
+				05D90371159F9EB8003A2CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkToAppStore;
+			productName = LinkToAppStore;
+			productReference = 05D90373159F9EB8003A2CB4 /* LinkToAppStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05D9036A159F9EB8003A2CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LinkToAppStore;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 05D9036D159F9EB8003A2CB4 /* Build configuration list for PBXProject "LinkToAppStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05D90368159F9EB8003A2CB4;
+			productRefGroup = 05D90374159F9EB8003A2CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05D90372159F9EB8003A2CB4 /* LinkToAppStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05D90371159F9EB8003A2CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D90382159F9EB8003A2CB4 /* InfoPlist.strings in Resources */,
+				05D9038E159F9EB8003A2CB4 /* LinkToAppStoreViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05D9036F159F9EB8003A2CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D90384159F9EB8003A2CB4 /* main.m in Sources */,
+				05D90388159F9EB8003A2CB4 /* LinkToAppStoreAppDelegate.m in Sources */,
+				05D9038B159F9EB8003A2CB4 /* LinkToAppStoreViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05D90380159F9EB8003A2CB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D90381159F9EB8003A2CB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05D9038C159F9EB8003A2CB4 /* LinkToAppStoreViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D9038D159F9EB8003A2CB4 /* en */,
+			);
+			name = LinkToAppStoreViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05D9038F159F9EB8003A2CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05D90390159F9EB8003A2CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05D90392159F9EB8003A2CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LinkToAppStore/LinkToAppStore-Prefix.pch";
+				INFOPLIST_FILE = "LinkToAppStore/LinkToAppStore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05D90393159F9EB8003A2CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LinkToAppStore/LinkToAppStore-Prefix.pch";
+				INFOPLIST_FILE = "LinkToAppStore/LinkToAppStore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D9036D159F9EB8003A2CB4 /* Build configuration list for PBXProject "LinkToAppStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D9038F159F9EB8003A2CB4 /* Debug */,
+				05D90390159F9EB8003A2CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05D90391159F9EB8003A2CB4 /* Build configuration list for PBXNativeTarget "LinkToAppStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D90392159F9EB8003A2CB4 /* Debug */,
+				05D90393159F9EB8003A2CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05D9036A159F9EB8003A2CB4 /* Project object */;
+}
