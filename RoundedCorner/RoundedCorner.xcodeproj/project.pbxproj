@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D90345159E8EF9003A2CB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D90344159E8EF9003A2CB4 /* UIKit.framework */; };
+		05D90347159E8EF9003A2CB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D90346159E8EF9003A2CB4 /* Foundation.framework */; };
+		05D90349159E8EF9003A2CB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D90348159E8EF9003A2CB4 /* CoreGraphics.framework */; };
+		05D9034F159E8EF9003A2CB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05D9034D159E8EF9003A2CB4 /* InfoPlist.strings */; };
+		05D90351159E8EF9003A2CB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D90350159E8EF9003A2CB4 /* main.m */; };
+		05D90355159E8EF9003A2CB4 /* RoundedCornerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D90354159E8EF9003A2CB4 /* RoundedCornerAppDelegate.m */; };
+		05D90358159E8EF9003A2CB4 /* RoundedCornerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D90357159E8EF9003A2CB4 /* RoundedCornerViewController.m */; };
+		05D9035B159E8EF9003A2CB4 /* RoundedCornerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D90359159E8EF9003A2CB4 /* RoundedCornerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05D90340159E8EF9003A2CB4 /* RoundedCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundedCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D90344159E8EF9003A2CB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05D90346159E8EF9003A2CB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05D90348159E8EF9003A2CB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05D9034C159E8EF9003A2CB4 /* RoundedCorner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoundedCorner-Info.plist"; sourceTree = "<group>"; };
+		05D9034E159E8EF9003A2CB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05D90350159E8EF9003A2CB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05D90352159E8EF9003A2CB4 /* RoundedCorner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoundedCorner-Prefix.pch"; sourceTree = "<group>"; };
+		05D90353159E8EF9003A2CB4 /* RoundedCornerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedCornerAppDelegate.h; sourceTree = "<group>"; };
+		05D90354159E8EF9003A2CB4 /* RoundedCornerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundedCornerAppDelegate.m; sourceTree = "<group>"; };
+		05D90356159E8EF9003A2CB4 /* RoundedCornerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedCornerViewController.h; sourceTree = "<group>"; };
+		05D90357159E8EF9003A2CB4 /* RoundedCornerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundedCornerViewController.m; sourceTree = "<group>"; };
+		05D9035A159E8EF9003A2CB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RoundedCornerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05D9033D159E8EF9003A2CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D90345159E8EF9003A2CB4 /* UIKit.framework in Frameworks */,
+				05D90347159E8EF9003A2CB4 /* Foundation.framework in Frameworks */,
+				05D90349159E8EF9003A2CB4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D90335159E8EF9003A2CB4 = {
+			isa = PBXGroup;
+			children = (
+				05D9034A159E8EF9003A2CB4 /* RoundedCorner */,
+				05D90343159E8EF9003A2CB4 /* Frameworks */,
+				05D90341159E8EF9003A2CB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05D90341159E8EF9003A2CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05D90340159E8EF9003A2CB4 /* RoundedCorner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05D90343159E8EF9003A2CB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05D90344159E8EF9003A2CB4 /* UIKit.framework */,
+				05D90346159E8EF9003A2CB4 /* Foundation.framework */,
+				05D90348159E8EF9003A2CB4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05D9034A159E8EF9003A2CB4 /* RoundedCorner */ = {
+			isa = PBXGroup;
+			children = (
+				05D90353159E8EF9003A2CB4 /* RoundedCornerAppDelegate.h */,
+				05D90354159E8EF9003A2CB4 /* RoundedCornerAppDelegate.m */,
+				05D90356159E8EF9003A2CB4 /* RoundedCornerViewController.h */,
+				05D90357159E8EF9003A2CB4 /* RoundedCornerViewController.m */,
+				05D90359159E8EF9003A2CB4 /* RoundedCornerViewController.xib */,
+				05D9034B159E8EF9003A2CB4 /* Supporting Files */,
+			);
+			path = RoundedCorner;
+			sourceTree = "<group>";
+		};
+		05D9034B159E8EF9003A2CB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05D9034C159E8EF9003A2CB4 /* RoundedCorner-Info.plist */,
+				05D9034D159E8EF9003A2CB4 /* InfoPlist.strings */,
+				05D90350159E8EF9003A2CB4 /* main.m */,
+				05D90352159E8EF9003A2CB4 /* RoundedCorner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05D9033F159E8EF9003A2CB4 /* RoundedCorner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D9035E159E8EF9003A2CB4 /* Build configuration list for PBXNativeTarget "RoundedCorner" */;
+			buildPhases = (
+				05D9033C159E8EF9003A2CB4 /* Sources */,
+				05D9033D159E8EF9003A2CB4 /* Frameworks */,
+				05D9033E159E8EF9003A2CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundedCorner;
+			productName = RoundedCorner;
+			productReference = 05D90340159E8EF9003A2CB4 /* RoundedCorner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05D90337159E8EF9003A2CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RoundedCorner;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 05D9033A159E8EF9003A2CB4 /* Build configuration list for PBXProject "RoundedCorner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05D90335159E8EF9003A2CB4;
+			productRefGroup = 05D90341159E8EF9003A2CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05D9033F159E8EF9003A2CB4 /* RoundedCorner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05D9033E159E8EF9003A2CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D9034F159E8EF9003A2CB4 /* InfoPlist.strings in Resources */,
+				05D9035B159E8EF9003A2CB4 /* RoundedCornerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05D9033C159E8EF9003A2CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D90351159E8EF9003A2CB4 /* main.m in Sources */,
+				05D90355159E8EF9003A2CB4 /* RoundedCornerAppDelegate.m in Sources */,
+				05D90358159E8EF9003A2CB4 /* RoundedCornerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05D9034D159E8EF9003A2CB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D9034E159E8EF9003A2CB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05D90359159E8EF9003A2CB4 /* RoundedCornerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D9035A159E8EF9003A2CB4 /* en */,
+			);
+			name = RoundedCornerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05D9035C159E8EF9003A2CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05D9035D159E8EF9003A2CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05D9035F159E8EF9003A2CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundedCorner/RoundedCorner-Prefix.pch";
+				INFOPLIST_FILE = "RoundedCorner/RoundedCorner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05D90360159E8EF9003A2CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundedCorner/RoundedCorner-Prefix.pch";
+				INFOPLIST_FILE = "RoundedCorner/RoundedCorner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D9033A159E8EF9003A2CB4 /* Build configuration list for PBXProject "RoundedCorner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D9035C159E8EF9003A2CB4 /* Debug */,
+				05D9035D159E8EF9003A2CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05D9035E159E8EF9003A2CB4 /* Build configuration list for PBXNativeTarget "RoundedCorner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D9035F159E8EF9003A2CB4 /* Debug */,
+				05D90360159E8EF9003A2CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05D90337159E8EF9003A2CB4 /* Project object */;
+}
