@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052EF04515A4E1E600378187 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052EF04415A4E1E600378187 /* UIKit.framework */; };
+		052EF04715A4E1E600378187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052EF04615A4E1E600378187 /* Foundation.framework */; };
+		052EF04915A4E1E600378187 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052EF04815A4E1E600378187 /* CoreGraphics.framework */; };
+		052EF04F15A4E1E600378187 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 052EF04D15A4E1E600378187 /* InfoPlist.strings */; };
+		052EF05115A4E1E600378187 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF05015A4E1E600378187 /* main.m */; };
+		052EF05515A4E1E600378187 /* AddDynamicButtonsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF05415A4E1E600378187 /* AddDynamicButtonsAppDelegate.m */; };
+		052EF05815A4E1E600378187 /* AddDynamicButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF05715A4E1E600378187 /* AddDynamicButtonsViewController.m */; };
+		052EF05B15A4E1E600378187 /* AddDynamicButtonsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 052EF05915A4E1E600378187 /* AddDynamicButtonsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		052EF04015A4E1E600378187 /* AddDynamicButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddDynamicButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		052EF04415A4E1E600378187 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		052EF04615A4E1E600378187 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		052EF04815A4E1E600378187 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		052EF04C15A4E1E600378187 /* AddDynamicButtons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddDynamicButtons-Info.plist"; sourceTree = "<group>"; };
+		052EF04E15A4E1E600378187 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		052EF05015A4E1E600378187 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		052EF05215A4E1E600378187 /* AddDynamicButtons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AddDynamicButtons-Prefix.pch"; sourceTree = "<group>"; };
+		052EF05315A4E1E600378187 /* AddDynamicButtonsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddDynamicButtonsAppDelegate.h; sourceTree = "<group>"; };
+		052EF05415A4E1E600378187 /* AddDynamicButtonsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddDynamicButtonsAppDelegate.m; sourceTree = "<group>"; };
+		052EF05615A4E1E600378187 /* AddDynamicButtonsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddDynamicButtonsViewController.h; sourceTree = "<group>"; };
+		052EF05715A4E1E600378187 /* AddDynamicButtonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddDynamicButtonsViewController.m; sourceTree = "<group>"; };
+		052EF05A15A4E1E600378187 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AddDynamicButtonsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		052EF03D15A4E1E600378187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052EF04515A4E1E600378187 /* UIKit.framework in Frameworks */,
+				052EF04715A4E1E600378187 /* Foundation.framework in Frameworks */,
+				052EF04915A4E1E600378187 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		052EF03515A4E1E500378187 = {
+			isa = PBXGroup;
+			children = (
+				052EF04A15A4E1E600378187 /* AddDynamicButtons */,
+				052EF04315A4E1E600378187 /* Frameworks */,
+				052EF04115A4E1E600378187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		052EF04115A4E1E600378187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				052EF04015A4E1E600378187 /* AddDynamicButtons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		052EF04315A4E1E600378187 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				052EF04415A4E1E600378187 /* UIKit.framework */,
+				052EF04615A4E1E600378187 /* Foundation.framework */,
+				052EF04815A4E1E600378187 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		052EF04A15A4E1E600378187 /* AddDynamicButtons */ = {
+			isa = PBXGroup;
+			children = (
+				052EF05315A4E1E600378187 /* AddDynamicButtonsAppDelegate.h */,
+				052EF05415A4E1E600378187 /* AddDynamicButtonsAppDelegate.m */,
+				052EF05615A4E1E600378187 /* AddDynamicButtonsViewController.h */,
+				052EF05715A4E1E600378187 /* AddDynamicButtonsViewController.m */,
+				052EF05915A4E1E600378187 /* AddDynamicButtonsViewController.xib */,
+				052EF04B15A4E1E600378187 /* Supporting Files */,
+			);
+			path = AddDynamicButtons;
+			sourceTree = "<group>";
+		};
+		052EF04B15A4E1E600378187 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				052EF04C15A4E1E600378187 /* AddDynamicButtons-Info.plist */,
+				052EF04D15A4E1E600378187 /* InfoPlist.strings */,
+				052EF05015A4E1E600378187 /* main.m */,
+				052EF05215A4E1E600378187 /* AddDynamicButtons-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		052EF03F15A4E1E600378187 /* AddDynamicButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052EF05E15A4E1E600378187 /* Build configuration list for PBXNativeTarget "AddDynamicButtons" */;
+			buildPhases = (
+				052EF03C15A4E1E600378187 /* Sources */,
+				052EF03D15A4E1E600378187 /* Frameworks */,
+				052EF03E15A4E1E600378187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddDynamicButtons;
+			productName = AddDynamicButtons;
+			productReference = 052EF04015A4E1E600378187 /* AddDynamicButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		052EF03715A4E1E500378187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AddDynamicButtons;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 052EF03A15A4E1E500378187 /* Build configuration list for PBXProject "AddDynamicButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 052EF03515A4E1E500378187;
+			productRefGroup = 052EF04115A4E1E600378187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				052EF03F15A4E1E600378187 /* AddDynamicButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		052EF03E15A4E1E600378187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052EF04F15A4E1E600378187 /* InfoPlist.strings in Resources */,
+				052EF05B15A4E1E600378187 /* AddDynamicButtonsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		052EF03C15A4E1E600378187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052EF05115A4E1E600378187 /* main.m in Sources */,
+				052EF05515A4E1E600378187 /* AddDynamicButtonsAppDelegate.m in Sources */,
+				052EF05815A4E1E600378187 /* AddDynamicButtonsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		052EF04D15A4E1E600378187 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052EF04E15A4E1E600378187 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		052EF05915A4E1E600378187 /* AddDynamicButtonsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052EF05A15A4E1E600378187 /* en */,
+			);
+			name = AddDynamicButtonsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		052EF05C15A4E1E600378187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		052EF05D15A4E1E600378187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		052EF05F15A4E1E600378187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddDynamicButtons/AddDynamicButtons-Prefix.pch";
+				INFOPLIST_FILE = "AddDynamicButtons/AddDynamicButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		052EF06015A4E1E600378187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddDynamicButtons/AddDynamicButtons-Prefix.pch";
+				INFOPLIST_FILE = "AddDynamicButtons/AddDynamicButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		052EF03A15A4E1E500378187 /* Build configuration list for PBXProject "AddDynamicButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052EF05C15A4E1E600378187 /* Debug */,
+				052EF05D15A4E1E600378187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052EF05E15A4E1E600378187 /* Build configuration list for PBXNativeTarget "AddDynamicButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052EF05F15A4E1E600378187 /* Debug */,
+				052EF06015A4E1E600378187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 052EF03715A4E1E500378187 /* Project object */;
+}
