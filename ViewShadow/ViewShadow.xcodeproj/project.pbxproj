@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0521C99B15A7E8590060DC65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0521C99A15A7E8590060DC65 /* UIKit.framework */; };
+		0521C99D15A7E8590060DC65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0521C99C15A7E8590060DC65 /* Foundation.framework */; };
+		0521C99F15A7E8590060DC65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0521C99E15A7E8590060DC65 /* CoreGraphics.framework */; };
+		0521C9A515A7E8590060DC65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0521C9A315A7E8590060DC65 /* InfoPlist.strings */; };
+		0521C9A715A7E8590060DC65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0521C9A615A7E8590060DC65 /* main.m */; };
+		0521C9AB15A7E8590060DC65 /* ViewShadowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0521C9AA15A7E8590060DC65 /* ViewShadowAppDelegate.m */; };
+		0521C9AE15A7E8590060DC65 /* ViewShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0521C9AD15A7E8590060DC65 /* ViewShadowViewController.m */; };
+		0521C9B115A7E8590060DC65 /* ViewShadowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0521C9AF15A7E8590060DC65 /* ViewShadowViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0521C99615A7E8590060DC65 /* ViewShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0521C99A15A7E8590060DC65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0521C99C15A7E8590060DC65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0521C99E15A7E8590060DC65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0521C9A215A7E8590060DC65 /* ViewShadow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewShadow-Info.plist"; sourceTree = "<group>"; };
+		0521C9A415A7E8590060DC65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0521C9A615A7E8590060DC65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0521C9A815A7E8590060DC65 /* ViewShadow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewShadow-Prefix.pch"; sourceTree = "<group>"; };
+		0521C9A915A7E8590060DC65 /* ViewShadowAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewShadowAppDelegate.h; sourceTree = "<group>"; };
+		0521C9AA15A7E8590060DC65 /* ViewShadowAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewShadowAppDelegate.m; sourceTree = "<group>"; };
+		0521C9AC15A7E8590060DC65 /* ViewShadowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewShadowViewController.h; sourceTree = "<group>"; };
+		0521C9AD15A7E8590060DC65 /* ViewShadowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewShadowViewController.m; sourceTree = "<group>"; };
+		0521C9B015A7E8590060DC65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewShadowViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0521C99315A7E8590060DC65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0521C99B15A7E8590060DC65 /* UIKit.framework in Frameworks */,
+				0521C99D15A7E8590060DC65 /* Foundation.framework in Frameworks */,
+				0521C99F15A7E8590060DC65 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0521C98B15A7E8590060DC65 = {
+			isa = PBXGroup;
+			children = (
+				0521C9A015A7E8590060DC65 /* ViewShadow */,
+				0521C99915A7E8590060DC65 /* Frameworks */,
+				0521C99715A7E8590060DC65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0521C99715A7E8590060DC65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0521C99615A7E8590060DC65 /* ViewShadow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0521C99915A7E8590060DC65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0521C99A15A7E8590060DC65 /* UIKit.framework */,
+				0521C99C15A7E8590060DC65 /* Foundation.framework */,
+				0521C99E15A7E8590060DC65 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0521C9A015A7E8590060DC65 /* ViewShadow */ = {
+			isa = PBXGroup;
+			children = (
+				0521C9A915A7E8590060DC65 /* ViewShadowAppDelegate.h */,
+				0521C9AA15A7E8590060DC65 /* ViewShadowAppDelegate.m */,
+				0521C9AC15A7E8590060DC65 /* ViewShadowViewController.h */,
+				0521C9AD15A7E8590060DC65 /* ViewShadowViewController.m */,
+				0521C9AF15A7E8590060DC65 /* ViewShadowViewController.xib */,
+				0521C9A115A7E8590060DC65 /* Supporting Files */,
+			);
+			path = ViewShadow;
+			sourceTree = "<group>";
+		};
+		0521C9A115A7E8590060DC65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0521C9A215A7E8590060DC65 /* ViewShadow-Info.plist */,
+				0521C9A315A7E8590060DC65 /* InfoPlist.strings */,
+				0521C9A615A7E8590060DC65 /* main.m */,
+				0521C9A815A7E8590060DC65 /* ViewShadow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0521C99515A7E8590060DC65 /* ViewShadow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0521C9B415A7E8590060DC65 /* Build configuration list for PBXNativeTarget "ViewShadow" */;
+			buildPhases = (
+				0521C99215A7E8590060DC65 /* Sources */,
+				0521C99315A7E8590060DC65 /* Frameworks */,
+				0521C99415A7E8590060DC65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewShadow;
+			productName = ViewShadow;
+			productReference = 0521C99615A7E8590060DC65 /* ViewShadow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0521C98D15A7E8590060DC65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ViewShadow;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0521C99015A7E8590060DC65 /* Build configuration list for PBXProject "ViewShadow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0521C98B15A7E8590060DC65;
+			productRefGroup = 0521C99715A7E8590060DC65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0521C99515A7E8590060DC65 /* ViewShadow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0521C99415A7E8590060DC65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0521C9A515A7E8590060DC65 /* InfoPlist.strings in Resources */,
+				0521C9B115A7E8590060DC65 /* ViewShadowViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0521C99215A7E8590060DC65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0521C9A715A7E8590060DC65 /* main.m in Sources */,
+				0521C9AB15A7E8590060DC65 /* ViewShadowAppDelegate.m in Sources */,
+				0521C9AE15A7E8590060DC65 /* ViewShadowViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0521C9A315A7E8590060DC65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0521C9A415A7E8590060DC65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0521C9AF15A7E8590060DC65 /* ViewShadowViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0521C9B015A7E8590060DC65 /* en */,
+			);
+			name = ViewShadowViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0521C9B215A7E8590060DC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0521C9B315A7E8590060DC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0521C9B515A7E8590060DC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewShadow/ViewShadow-Prefix.pch";
+				INFOPLIST_FILE = "ViewShadow/ViewShadow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0521C9B615A7E8590060DC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewShadow/ViewShadow-Prefix.pch";
+				INFOPLIST_FILE = "ViewShadow/ViewShadow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0521C99015A7E8590060DC65 /* Build configuration list for PBXProject "ViewShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0521C9B215A7E8590060DC65 /* Debug */,
+				0521C9B315A7E8590060DC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0521C9B415A7E8590060DC65 /* Build configuration list for PBXNativeTarget "ViewShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0521C9B515A7E8590060DC65 /* Debug */,
+				0521C9B615A7E8590060DC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0521C98D15A7E8590060DC65 /* Project object */;
+}
