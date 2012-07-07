@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0521CA0115A80E190060DC65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0521CA0015A80E190060DC65 /* UIKit.framework */; };
+		0521CA0315A80E190060DC65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0521CA0215A80E190060DC65 /* Foundation.framework */; };
+		0521CA0515A80E190060DC65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0521CA0415A80E190060DC65 /* CoreGraphics.framework */; };
+		0521CA0B15A80E190060DC65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0521CA0915A80E190060DC65 /* InfoPlist.strings */; };
+		0521CA0D15A80E190060DC65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0521CA0C15A80E190060DC65 /* main.m */; };
+		0521CA1115A80E190060DC65 /* NoGlossIconAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0521CA1015A80E190060DC65 /* NoGlossIconAppDelegate.m */; };
+		0521CA1415A80E190060DC65 /* NoGlossIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0521CA1315A80E190060DC65 /* NoGlossIconViewController.m */; };
+		0521CA1715A80E190060DC65 /* NoGlossIconViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0521CA1515A80E190060DC65 /* NoGlossIconViewController.xib */; };
+		0521CA1E15A812DD0060DC65 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0521CA1D15A812DD0060DC65 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0521C9FC15A80E190060DC65 /* NoGlossIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoGlossIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0521CA0015A80E190060DC65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0521CA0215A80E190060DC65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0521CA0415A80E190060DC65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0521CA0815A80E190060DC65 /* NoGlossIcon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoGlossIcon-Info.plist"; sourceTree = "<group>"; };
+		0521CA0A15A80E190060DC65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0521CA0C15A80E190060DC65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0521CA0E15A80E190060DC65 /* NoGlossIcon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoGlossIcon-Prefix.pch"; sourceTree = "<group>"; };
+		0521CA0F15A80E190060DC65 /* NoGlossIconAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoGlossIconAppDelegate.h; sourceTree = "<group>"; };
+		0521CA1015A80E190060DC65 /* NoGlossIconAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoGlossIconAppDelegate.m; sourceTree = "<group>"; };
+		0521CA1215A80E190060DC65 /* NoGlossIconViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoGlossIconViewController.h; sourceTree = "<group>"; };
+		0521CA1315A80E190060DC65 /* NoGlossIconViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoGlossIconViewController.m; sourceTree = "<group>"; };
+		0521CA1615A80E190060DC65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NoGlossIconViewController.xib; sourceTree = "<group>"; };
+		0521CA1D15A812DD0060DC65 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0521C9F915A80E190060DC65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0521CA0115A80E190060DC65 /* UIKit.framework in Frameworks */,
+				0521CA0315A80E190060DC65 /* Foundation.framework in Frameworks */,
+				0521CA0515A80E190060DC65 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0521C9F115A80E190060DC65 = {
+			isa = PBXGroup;
+			children = (
+				0521CA0615A80E190060DC65 /* NoGlossIcon */,
+				0521C9FF15A80E190060DC65 /* Frameworks */,
+				0521C9FD15A80E190060DC65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0521C9FD15A80E190060DC65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0521C9FC15A80E190060DC65 /* NoGlossIcon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0521C9FF15A80E190060DC65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0521CA0015A80E190060DC65 /* UIKit.framework */,
+				0521CA0215A80E190060DC65 /* Foundation.framework */,
+				0521CA0415A80E190060DC65 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0521CA0615A80E190060DC65 /* NoGlossIcon */ = {
+			isa = PBXGroup;
+			children = (
+				0521CA0F15A80E190060DC65 /* NoGlossIconAppDelegate.h */,
+				0521CA1015A80E190060DC65 /* NoGlossIconAppDelegate.m */,
+				0521CA1215A80E190060DC65 /* NoGlossIconViewController.h */,
+				0521CA1315A80E190060DC65 /* NoGlossIconViewController.m */,
+				0521CA1515A80E190060DC65 /* NoGlossIconViewController.xib */,
+				0521CA0715A80E190060DC65 /* Supporting Files */,
+			);
+			path = NoGlossIcon;
+			sourceTree = "<group>";
+		};
+		0521CA0715A80E190060DC65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0521CA1D15A812DD0060DC65 /* icon.png */,
+				0521CA0815A80E190060DC65 /* NoGlossIcon-Info.plist */,
+				0521CA0915A80E190060DC65 /* InfoPlist.strings */,
+				0521CA0C15A80E190060DC65 /* main.m */,
+				0521CA0E15A80E190060DC65 /* NoGlossIcon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0521C9FB15A80E190060DC65 /* NoGlossIcon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0521CA1A15A80E190060DC65 /* Build configuration list for PBXNativeTarget "NoGlossIcon" */;
+			buildPhases = (
+				0521C9F815A80E190060DC65 /* Sources */,
+				0521C9F915A80E190060DC65 /* Frameworks */,
+				0521C9FA15A80E190060DC65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoGlossIcon;
+			productName = NoGlossIcon;
+			productReference = 0521C9FC15A80E190060DC65 /* NoGlossIcon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0521C9F315A80E190060DC65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NoGlossIcon;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0521C9F615A80E190060DC65 /* Build configuration list for PBXProject "NoGlossIcon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0521C9F115A80E190060DC65;
+			productRefGroup = 0521C9FD15A80E190060DC65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0521C9FB15A80E190060DC65 /* NoGlossIcon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0521C9FA15A80E190060DC65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0521CA0B15A80E190060DC65 /* InfoPlist.strings in Resources */,
+				0521CA1715A80E190060DC65 /* NoGlossIconViewController.xib in Resources */,
+				0521CA1E15A812DD0060DC65 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0521C9F815A80E190060DC65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0521CA0D15A80E190060DC65 /* main.m in Sources */,
+				0521CA1115A80E190060DC65 /* NoGlossIconAppDelegate.m in Sources */,
+				0521CA1415A80E190060DC65 /* NoGlossIconViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0521CA0915A80E190060DC65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0521CA0A15A80E190060DC65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0521CA1515A80E190060DC65 /* NoGlossIconViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0521CA1615A80E190060DC65 /* en */,
+			);
+			name = NoGlossIconViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0521CA1815A80E190060DC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0521CA1915A80E190060DC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0521CA1B15A80E190060DC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoGlossIcon/NoGlossIcon-Prefix.pch";
+				INFOPLIST_FILE = "NoGlossIcon/NoGlossIcon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0521CA1C15A80E190060DC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoGlossIcon/NoGlossIcon-Prefix.pch";
+				INFOPLIST_FILE = "NoGlossIcon/NoGlossIcon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0521C9F615A80E190060DC65 /* Build configuration list for PBXProject "NoGlossIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0521CA1815A80E190060DC65 /* Debug */,
+				0521CA1915A80E190060DC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0521CA1A15A80E190060DC65 /* Build configuration list for PBXNativeTarget "NoGlossIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0521CA1B15A80E190060DC65 /* Debug */,
+				0521CA1C15A80E190060DC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0521C9F315A80E190060DC65 /* Project object */;
+}
