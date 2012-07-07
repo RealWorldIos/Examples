@@ -22,8 +22,6 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     myView.layer.cornerRadius = 10;
-    myView.layer.masksToBounds = YES;
-    
 }
 
 - (void)viewDidUnload
