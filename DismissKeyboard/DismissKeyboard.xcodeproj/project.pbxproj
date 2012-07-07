@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052EF0A515A5120C00378187 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052EF0A415A5120C00378187 /* UIKit.framework */; };
+		052EF0A715A5120C00378187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052EF0A615A5120C00378187 /* Foundation.framework */; };
+		052EF0A915A5120C00378187 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052EF0A815A5120C00378187 /* CoreGraphics.framework */; };
+		052EF0AF15A5120C00378187 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 052EF0AD15A5120C00378187 /* InfoPlist.strings */; };
+		052EF0B115A5120C00378187 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF0B015A5120C00378187 /* main.m */; };
+		052EF0B515A5120C00378187 /* DismissKeyboardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF0B415A5120C00378187 /* DismissKeyboardAppDelegate.m */; };
+		052EF0B815A5120C00378187 /* DismissKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF0B715A5120C00378187 /* DismissKeyboardViewController.m */; };
+		052EF0BB15A5120C00378187 /* DismissKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 052EF0B915A5120C00378187 /* DismissKeyboardViewController.xib */; };
+		052EF0C315A77FB900378187 /* DismissKeyboardUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 052EF0C215A77FB900378187 /* DismissKeyboardUIView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		052EF0A015A5120C00378187 /* DismissKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DismissKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		052EF0A415A5120C00378187 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		052EF0A615A5120C00378187 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		052EF0A815A5120C00378187 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		052EF0AC15A5120C00378187 /* DismissKeyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DismissKeyboard-Info.plist"; sourceTree = "<group>"; };
+		052EF0AE15A5120C00378187 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		052EF0B015A5120C00378187 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		052EF0B215A5120C00378187 /* DismissKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DismissKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		052EF0B315A5120C00378187 /* DismissKeyboardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DismissKeyboardAppDelegate.h; sourceTree = "<group>"; };
+		052EF0B415A5120C00378187 /* DismissKeyboardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DismissKeyboardAppDelegate.m; sourceTree = "<group>"; };
+		052EF0B615A5120C00378187 /* DismissKeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DismissKeyboardViewController.h; sourceTree = "<group>"; };
+		052EF0B715A5120C00378187 /* DismissKeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DismissKeyboardViewController.m; sourceTree = "<group>"; };
+		052EF0BA15A5120C00378187 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DismissKeyboardViewController.xib; sourceTree = "<group>"; };
+		052EF0C115A77FB900378187 /* DismissKeyboardUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissKeyboardUIView.h; sourceTree = "<group>"; };
+		052EF0C215A77FB900378187 /* DismissKeyboardUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissKeyboardUIView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		052EF09D15A5120C00378187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052EF0A515A5120C00378187 /* UIKit.framework in Frameworks */,
+				052EF0A715A5120C00378187 /* Foundation.framework in Frameworks */,
+				052EF0A915A5120C00378187 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		052EF09515A5120C00378187 = {
+			isa = PBXGroup;
+			children = (
+				052EF0AA15A5120C00378187 /* DismissKeyboard */,
+				052EF0A315A5120C00378187 /* Frameworks */,
+				052EF0A115A5120C00378187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		052EF0A115A5120C00378187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				052EF0A015A5120C00378187 /* DismissKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		052EF0A315A5120C00378187 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				052EF0A415A5120C00378187 /* UIKit.framework */,
+				052EF0A615A5120C00378187 /* Foundation.framework */,
+				052EF0A815A5120C00378187 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		052EF0AA15A5120C00378187 /* DismissKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				052EF0B315A5120C00378187 /* DismissKeyboardAppDelegate.h */,
+				052EF0B415A5120C00378187 /* DismissKeyboardAppDelegate.m */,
+				052EF0B615A5120C00378187 /* DismissKeyboardViewController.h */,
+				052EF0B715A5120C00378187 /* DismissKeyboardViewController.m */,
+				052EF0B915A5120C00378187 /* DismissKeyboardViewController.xib */,
+				052EF0C115A77FB900378187 /* DismissKeyboardUIView.h */,
+				052EF0C215A77FB900378187 /* DismissKeyboardUIView.m */,
+				052EF0AB15A5120C00378187 /* Supporting Files */,
+			);
+			path = DismissKeyboard;
+			sourceTree = "<group>";
+		};
+		052EF0AB15A5120C00378187 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				052EF0AC15A5120C00378187 /* DismissKeyboard-Info.plist */,
+				052EF0AD15A5120C00378187 /* InfoPlist.strings */,
+				052EF0B015A5120C00378187 /* main.m */,
+				052EF0B215A5120C00378187 /* DismissKeyboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		052EF09F15A5120C00378187 /* DismissKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052EF0BE15A5120C00378187 /* Build configuration list for PBXNativeTarget "DismissKeyboard" */;
+			buildPhases = (
+				052EF09C15A5120C00378187 /* Sources */,
+				052EF09D15A5120C00378187 /* Frameworks */,
+				052EF09E15A5120C00378187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DismissKeyboard;
+			productName = DismissKeyboard;
+			productReference = 052EF0A015A5120C00378187 /* DismissKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		052EF09715A5120C00378187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DismissKeyboard;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 052EF09A15A5120C00378187 /* Build configuration list for PBXProject "DismissKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 052EF09515A5120C00378187;
+			productRefGroup = 052EF0A115A5120C00378187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				052EF09F15A5120C00378187 /* DismissKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		052EF09E15A5120C00378187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052EF0AF15A5120C00378187 /* InfoPlist.strings in Resources */,
+				052EF0BB15A5120C00378187 /* DismissKeyboardViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		052EF09C15A5120C00378187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052EF0B115A5120C00378187 /* main.m in Sources */,
+				052EF0B515A5120C00378187 /* DismissKeyboardAppDelegate.m in Sources */,
+				052EF0B815A5120C00378187 /* DismissKeyboardViewController.m in Sources */,
+				052EF0C315A77FB900378187 /* DismissKeyboardUIView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		052EF0AD15A5120C00378187 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052EF0AE15A5120C00378187 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		052EF0B915A5120C00378187 /* DismissKeyboardViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052EF0BA15A5120C00378187 /* en */,
+			);
+			name = DismissKeyboardViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		052EF0BC15A5120C00378187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		052EF0BD15A5120C00378187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		052EF0BF15A5120C00378187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DismissKeyboard/DismissKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "DismissKeyboard/DismissKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		052EF0C015A5120C00378187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DismissKeyboard/DismissKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "DismissKeyboard/DismissKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		052EF09A15A5120C00378187 /* Build configuration list for PBXProject "DismissKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052EF0BC15A5120C00378187 /* Debug */,
+				052EF0BD15A5120C00378187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052EF0BE15A5120C00378187 /* Build configuration list for PBXNativeTarget "DismissKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052EF0BF15A5120C00378187 /* Debug */,
+				052EF0C015A5120C00378187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 052EF09715A5120C00378187 /* Project object */;
+}
