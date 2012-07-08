@@ -38,7 +38,7 @@
         MFMailComposeViewController *controller = [[MFMailComposeViewController alloc] init];
         controller.mailComposeDelegate = self;
         [controller setSubject:@"User feedback from InAppEmail"];
-        [controller setToRecipients:[NSArray arrayWithObject:@"somebody@myDomain.com"]];
+        [controller setToRecipients:[NSArray arrayWithObject:@"somebody@example.com"]];
         [self presentViewController:controller animated:YES completion:nil];
     }
     else {
